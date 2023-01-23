@@ -1,0 +1,109 @@
+/* 01-typography
+
+-font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+     
+-Font weights
+400
+500
+700
+
+
+-Line height 
+defual: 1
+1.05
+1.6
+
+-SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem #fff;
+}
+
+html {
+  font-size: 62.5%;
+
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 4.8rem;
+}
+
+.secondary-heading {
+  font-size: 3rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+.main-text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.white-btn:link,
+.white-btn:visited {
+  font-size: 1.4rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2.4rem;
+  border: 2px solid #e9ecef;
+  border-radius: 2.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+
+  gap: 4.8rem;
+}
+
+.feature-title {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+.features-text {
+  margin-bottom: 1.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #555;
+}
+
+.non-border-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.red-text {
+  color: red;
+  margin-bottom: 1.6rem;
+}
+
+.margin-bottom {
+  margin-bottom: 3.2rem;
+}
